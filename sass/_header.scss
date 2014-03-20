@@ -1,0 +1,104 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	height: 200px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 70px 80px 70px;
+	margin-top: -30px;
+}
+
+nav a {
+	color: white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 0.750em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+nav a:hover {
+	opacity: .6;
+  transition: opacity .3s ease-out;
+}
+
+nav li:nth-child(1), nav li:nth-child(2) {
+  float: left;
+}
+
+nav li:nth-child(3), nav li:nth-child(4) {
+  float: right;
+}
+
+.logo {
+	display: block;
+	text-indent: -9999px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	transition: all 1s;
+}
+
+			nav li:nth-child(1), nav li:nth-child(2) {
+  float: left;
+}
+
+nav li:nth-child(3), nav li:nth-child(4) {
+  float: right;
+}
+
+		/* Sizes for the bigger menu */
+			header.large{
+				height: 200px;
+			}
+
+
+			header.large li{
+				margin-top: -80px;
+				display: inline-block;
+			}
+
+			.svg-div {
+				margin-top:40px;
+			}
+
+			.large .svglogo   { 
+				fill:white;
+			
+}
+
+
+			/* Sizes for the smaller menu */
+			header.small{ 
+				height: 78px; 
+				background: white;
+			}
+
+			header.small img{ 
+				width: 135px; 
+				height: 69px; 
+				margin-top: -34px;
+			}
+
+		.small .svglogo   { 
+				fill:black;
+}
+
+			header.small li{ 
+				margin-top: -96px; 
+			}
+
+			header.small nav a {
+				color: black;
+			}
