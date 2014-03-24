@@ -564,14 +564,17 @@ h1 {
   margin: 0 0 05px;
   font-weight: 300;
   letter-spacing: 1px;
+  display: inline-block;
 }
 
-/* line 20, ../sass/_type.scss */
-.headline {
+/* line 21, ../sass/_type.scss */
+hgroup {
   color: white;
+  position: relative;
+  padding-top: 200px;
 }
 
-/* line 25, ../sass/_type.scss */
+/* line 28, ../sass/_type.scss */
 h2 {
   font-family: "Neuton", Georgia, Times, serif;
   font-style: italic;
@@ -581,15 +584,15 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* line 34, ../sass/_type.scss */
+/* line 37, ../sass/_type.scss */
 h3 {
-  font-size: 26px;
+  font-size: 3em;
   margin: 0 0 25px;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 41, ../sass/_type.scss */
+/* line 44, ../sass/_type.scss */
 h4 {
   font-size: 18px;
   margin: 0 0 25px;
@@ -597,7 +600,7 @@ h4 {
   font-style: normal;
 }
 
-/* line 48, ../sass/_type.scss */
+/* line 51, ../sass/_type.scss */
 h5 {
   font-size: 16px;
   margin: 0 0 25px;
@@ -605,12 +608,20 @@ h5 {
   font-weight: normal;
 }
 
-/* line 55, ../sass/_type.scss */
+/* line 58, ../sass/_type.scss */
 p {
   margin: 0 0 20px;
 }
 
-/* line 59, ../sass/_type.scss */
+/* line 62, ../sass/_type.scss */
+.intro {
+  font-family: "Neuton", Georgia, Times, serif;
+  font-style: italic;
+  font-size: 1.063em;
+  line-height: 28px;
+}
+
+/* line 69, ../sass/_type.scss */
 pre {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   margin: 0 0 20px;
@@ -651,19 +662,21 @@ a:hover, a:focus {
   letter-spacing: 5px;
   font-weight: 800;
   font-size: 1.150em;
+  width: 270px;
+  height: 70px;
 }
-/* line 22, ../sass/_links.scss */
+/* line 24, ../sass/_links.scss */
 .btn:hover, .btn-link:hover, .btn:focus, .btn-link:focus {
   background: black;
   text-decoration: none;
   color: white;
 }
-/* line 28, ../sass/_links.scss */
+/* line 30, ../sass/_links.scss */
 .btn:active, .btn-link:active {
   background: #ffffc2;
 }
 
-/* line 35, ../sass/_links.scss */
+/* line 37, ../sass/_links.scss */
 .btn-link {
   color: black;
   background: transparent;
@@ -674,13 +687,21 @@ a:hover, a:focus {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 43, ../sass/_links.scss */
+/* line 45, ../sass/_links.scss */
 .btn-link:hover, .btn-link:focus {
   text-decoration: underline;
   background: transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+
+/* line 55, ../sass/_links.scss */
+.main-c2a button {
+  border: white 5px solid;
+  color: white;
+  margin: 0 20px 0 20px;
+  margin-top: 360px;
 }
 
 /* line 4, ../sass/_form.scss */
@@ -891,26 +912,62 @@ header.small {
   background: white;
 }
 
-/* line 88, ../sass/_header.scss */
-header.small img {
-  width: 135px;
-  height: 69px;
-  margin-top: -34px;
-}
-
 /* line 94, ../sass/_header.scss */
 .small .svglogo {
   fill: black;
+  width: 60%;
+  height: 60%;
+  margin-top: -34px;
 }
 
-/* line 98, ../sass/_header.scss */
+/* line 105, ../sass/_header.scss */
 header.small li {
   margin-top: -96px;
 }
 
-/* line 102, ../sass/_header.scss */
+/* line 109, ../sass/_header.scss */
 header.small nav a {
   color: black;
+}
+
+/* line 1, ../sass/_about.scss */
+.bio {
+  padding: 5%  20% 0 20%;
+  text-align: center;
+  margin: 1em auto;
+  background: #fffff5;
+}
+
+/* line 8, ../sass/_about.scss */
+#about {
+  display: block;
+  margin-top: 103px;
+}
+
+/* line 13, ../sass/_about.scss */
+.social {
+  margin: 0 auto;
+  background: black;
+}
+
+/* line 18, ../sass/_about.scss */
+.social ul {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 23, ../sass/_about.scss */
+.social li {
+  display: block;
+  float: left;
+  width: 14%;
+  text-align: center;
+}
+
+/* line 30, ../sass/_about.scss */
+.skills {
+  background: #fffff5;
+  display: inline-block;
 }
 
 @media screen and (max-width: 480px) {

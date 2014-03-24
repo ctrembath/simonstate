@@ -1,0 +1,33 @@
+.bio {
+	padding: 5%  20% 0 20%;
+  text-align: center;
+  margin: 1em auto;
+  background:$tertiary-color;
+}
+
+#about {
+	display: block;
+	margin-top: 103px;
+}
+
+.social {
+	margin: 0 auto;
+	background:$primary-color;
+}
+
+.social ul {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.social li {
+	display: block;
+	float: left;
+	width: 14%;
+	text-align: center;
+}
+
+.skills {
+	background:$tertiary-color;
+	display: inline-block;
+}

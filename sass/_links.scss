@@ -19,6 +19,8 @@ a{
   letter-spacing: 5px;
   font-weight: 800;
   font-size: 1.150em;
+  width: 270px;
+  height: 70px;
   &:hover,&:focus {
     background:$primary-color;
     text-decoration: none;
@@ -48,4 +50,12 @@ a{
   &:active{
 
   }
+}
+
+.main-c2a button {
+
+  border:$secondary-color 5px solid;
+  color:$secondary-color;
+  margin: 0 20px 0 20px;
+  margin-top: 360px;
 }
