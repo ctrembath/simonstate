@@ -588,7 +588,7 @@ h2 {
 h3 {
   font-size: 3em;
   margin: 0 0 25px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -617,7 +617,7 @@ p {
 .intro {
   font-family: "Neuton", Georgia, Times, serif;
   font-style: italic;
-  font-size: 1.063em;
+  font-size: 1.3em;
   line-height: 28px;
 }
 
@@ -702,6 +702,12 @@ a:hover, a:focus {
   color: white;
   margin: 0 20px 0 20px;
   margin-top: 360px;
+}
+
+/* line 63, ../sass/_links.scss */
+.main-c2a button:hover {
+  color: black;
+  background: white;
 }
 
 /* line 4, ../sass/_form.scss */
@@ -912,29 +918,32 @@ header.small {
   background: white;
 }
 
-/* line 94, ../sass/_header.scss */
+/* line 88, ../sass/_header.scss */
 .small .svglogo {
   fill: black;
-  width: 60%;
-  height: 60%;
-  margin-top: -34px;
 }
 
-/* line 105, ../sass/_header.scss */
+/* line 92, ../sass/_header.scss */
+.small .svg-div {
+  margin: 0 auto;
+  margin-top: -3px;
+}
+
+/* line 97, ../sass/_header.scss */
 header.small li {
   margin-top: -96px;
 }
 
-/* line 109, ../sass/_header.scss */
+/* line 101, ../sass/_header.scss */
 header.small nav a {
   color: black;
 }
 
 /* line 1, ../sass/_about.scss */
 .bio {
-  padding: 5%  20% 0 20%;
+  padding: 5%  20% 2% 20%;
   text-align: center;
-  margin: 1em auto;
+  margin: auto;
   background: #fffff5;
 }
 
@@ -947,27 +956,41 @@ header.small nav a {
 /* line 13, ../sass/_about.scss */
 .social {
   margin: 0 auto;
-  background: black;
+  background: white;
+  height: 100px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-/* line 18, ../sass/_about.scss */
+/* line 21, ../sass/_about.scss */
 .social ul {
   margin: 0 auto;
   width: 100%;
+  display: inline-block;
 }
 
-/* line 23, ../sass/_about.scss */
+/* line 28, ../sass/_about.scss */
 .social li {
   display: block;
-  float: left;
-  width: 14%;
   text-align: center;
+  display: inline-block;
 }
 
-/* line 30, ../sass/_about.scss */
+/* line 34, ../sass/_about.scss */
 .skills {
   background: #fffff5;
   display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/* line 43, ../sass/_about.scss */
+.icons li {
+  padding: 0 5px 0 5px;
+  margin: auto;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 480px) {

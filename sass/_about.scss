@@ -1,7 +1,7 @@
 .bio {
-	padding: 5%  20% 0 20%;
+	padding: 5%  20% 2% 20%;
   text-align: center;
-  margin: 1em auto;
+  margin: auto;
   background:$tertiary-color;
 }
 
@@ -12,22 +12,36 @@
 
 .social {
 	margin: 0 auto;
-	background:$primary-color;
+	background:$secondary-color;
+	height: 100px;
+	text-align: center;
+	margin-top: 40px;
 }
 
 .social ul {
 	margin: 0 auto;
 	width: 100%;
+	display: inline-block;
+
 }
 
 .social li {
 	display: block;
-	float: left;
-	width: 14%;
 	text-align: center;
+	display: inline-block;
 }
 
 .skills {
 	background:$tertiary-color;
 	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.icons li {
+	padding: 0 5px 0 5px;
+	margin: auto;
+	margin-top: 10px;
 }
