@@ -1,0 +1,28 @@
+#portfolio {
+background-image: url(../img/cin-bg.png);
+height:768px;
+background-repeat: no-repeat;
+background-position: top;
+background-size: 100% auto;
+}
+
+.image-wrapper {
+	position: relative;
+	height: 690px;
+}
+
+.computer {
+	position: relative;
+	right: 0;
+}
+
+.iphone {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+}
+
+.next_previous {
+	display: inline-block;
+}

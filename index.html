@@ -16,7 +16,6 @@
 
 	<!-- stylesheets -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	
 
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type"text/css" />
 
@@ -131,7 +130,7 @@
 </div>
 	<section id="about" class="span12">
 		<section class="bio">
-			<img src="img/profile-pic.svg" height="250px" width="250px">
+			<img src="img/profile-pic.svg" class="wow rotateIn" height="250px" width="250px">
 			<h3>Hi, I’m <b>Simon Whittaker</b></h3>
 			<p class="intro">I take complex problems and turn them into stunning, flexible and lightning fast experiences.</p><p class="intro">I have a degree in Graphic Design from <a href="http://www.aaaschool.co.za/">AAA School of Advertising</a>. I spent time flexing my entrepreneurial muscles growing a Digital agency in Cape Town South Africa. I recently completed a 12 week web development course at <a href="www.makersacadmey.com">Makers Academy</a>.</p><p class="intro">I‘m looking for full time employment in a skilled team, building software that enriches and improves peoples live. I’m currently living in London, United Kingdom</p>
 		</section>
@@ -151,34 +150,36 @@
 			<section class="skills">
 				<h1>I aim to create stunning, flexible and lightning fast experiences.</h1>
 					<div class="span4">
-						<object type="image/svg+xml" data="img/design.svg" width="80%" height="100%" class="svg-content"></object>
+						<object type="image/svg+xml" data="img/design.svg" width="80%" height="100%" class="wow animated fadeInUp svg-content"></object>
 						<h4>Everything is design.<br>Everything!</h4>
 						<p>I have immense appreciation for all things beautiful and in divine proportion. I’d like to combine new technologies and ways of thinking with age old techniques.</p>
 					</div>
 					<div class="span4">
-						<object type="image/svg+xml" data="img/code.svg" width="80%" height="100%" class="svg-content"></object>
+						<object type="image/svg+xml" data="img/code.svg" width="80%" height="100%" class="wow animated fadeInUp svg-content"></object>
 						<h4>HTML, CSS &amp;<br>Javascript</h4>
 						<p>I have a degree in Graphic Design from AAA School of Advertising. Thereafter I spent time flexing my entrepreneurial muscles growing a Digital agency in Cape.</p>
 					</div>
 					<div class="span4">
-						<object type="image/svg+xml" data="img/wireframe.svg" width="80%" height="100%" class="svg-content"></object>
+						<object type="image/svg+xml" data="img/wireframe.svg" width="80%" height="100%" class="wow animated fadeInUp svg-content"></object>
 						<h4>UX built with<br>goals in mind.</h4>
 						<p>I’m looking for full time employment in a skilled team, building software that enriches and improves peoples live. I’m currently living in London, United</p>
 					</div>
 				</section>
 			</section>
 		<section id="portfolio">
-			<h1>I aim to create stunning, flexible and lightning fast experiences.</h1>
+			<h1 class="portfolio-headline">I aim to create stunning, flexible and lightning fast experiences.</h1>
 			<div class="work span12">
-				<div class="work-bg span12">
 				<hgroup class="span4">
+					<div class="next_previous">
 					<button type="button" class="btn">Previous</button>
 					<button type="button" class="btn">Next</button>
+				</div>
 					<h2>Jekyl and Hide</h2>
 					<p>I take complex problems and turn them into stunning, flexible and lightning fast experiences. Recently I’ve immersed myself in zero’s and ones on my.</p>
 				</hgroup>
-				<img alt="Jekyl and hide project" class="span8" src="img/computer.png" width="100%">
-				<img alt="Jekyl and hide project" class="span4" src="img/iphone.png" width="100%">
+				<div class="image-wrapper">
+				<img alt="Jekyl and hide project" class="computer span8" src="img/computer.png" width="100%">
+				<img alt="Jekyl and hide project" class="iphone span4" src="img/iphone.png" width="100%">
 			</div>
 		</div>
 	  </section>
@@ -211,6 +212,11 @@
 				}
 			});
 	</script>
+			<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+
   	
 
 </body>

@@ -66,6 +66,10 @@ p {
   line-height: 28px;
 }
 
+.portfolio-headline {
+  color:$secondary-color
+}
+
 pre{
   font-family:Monaco, Menlo, Consolas, "Courier New", monospace;
   margin:0 0 $padding/2;

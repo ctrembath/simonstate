@@ -1,1041 +1,4 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Neuton:400,400italic);
-/* line 9, ../sass/_normalize.scss */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
-
-/**
- * Remove default margin.
- */
-/* line 19, ../sass/_normalize.scss */
-body {
-  margin: 0;
-}
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-/* line 41, ../sass/_normalize.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-/* line 53, ../sass/_normalize.scss */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
-}
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-/* line 63, ../sass/_normalize.scss */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/**
- * Address `[hidden]` styling not present in IE 8/9.
- * Hide the `template` element in IE, Safari, and Firefox < 22.
- */
-/* line 74, ../sass/_normalize.scss */
-[hidden],
-template {
-  display: none;
-}
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
-/* line 85, ../sass/_normalize.scss */
-a {
-  background: transparent;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-/* line 94, ../sass/_normalize.scss */
-a:active,
-a:hover {
-  outline: 0;
-}
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-/* line 105, ../sass/_normalize.scss */
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-/* line 114, ../sass/_normalize.scss */
-b,
-strong {
-  font-weight: bold;
-}
-
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-/* line 122, ../sass/_normalize.scss */
-dfn {
-  font-style: italic;
-}
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-/* line 131, ../sass/_normalize.scss */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-/* line 140, ../sass/_normalize.scss */
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-/* line 149, ../sass/_normalize.scss */
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-/* line 158, ../sass/_normalize.scss */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* line 165, ../sass/_normalize.scss */
-sup {
-  top: -0.5em;
-}
-
-/* line 169, ../sass/_normalize.scss */
-sub {
-  bottom: -0.25em;
-}
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-/* line 180, ../sass/_normalize.scss */
-img {
-  border: 0;
-}
-
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-/* line 188, ../sass/_normalize.scss */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
-/* line 199, ../sass/_normalize.scss */
-figure {
-  margin: 1em 40px;
-}
-
-/**
- * Address differences between Firefox and other browsers.
- */
-/* line 207, ../sass/_normalize.scss */
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-/**
- * Contain overflow in all browsers.
- */
-/* line 217, ../sass/_normalize.scss */
-pre {
-  overflow: auto;
-}
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-/* line 228, ../sass/_normalize.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
-/* line 252, ../sass/_normalize.scss */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-}
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10.
- */
-/* line 262, ../sass/_normalize.scss */
-button {
-  overflow: visible;
-}
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8+, and Opera
- * Correct `select` style inheritance in Firefox.
- */
-/* line 274, ../sass/_normalize.scss */
-button,
-select {
-  text-transform: none;
-}
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-/* line 289, ../sass/_normalize.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
-}
-
-/**
- * Re-set default cursor for disabled elements.
- */
-/* line 299, ../sass/_normalize.scss */
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-/* line 308, ../sass/_normalize.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-/* line 318, ../sass/_normalize.scss */
-input {
-  line-height: normal;
-}
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-/* line 331, ../sass/_normalize.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-/* line 343, ../sass/_normalize.scss */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-/* line 353, ../sass/_normalize.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box;
-}
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-/* line 367, ../sass/_normalize.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * Define consistent border, margin, and padding.
- */
-/* line 375, ../sass/_normalize.scss */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-/* line 386, ../sass/_normalize.scss */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Remove default vertical scrollbar in IE 8/9.
- */
-/* line 395, ../sass/_normalize.scss */
-textarea {
-  overflow: auto;
-}
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-/* line 404, ../sass/_normalize.scss */
-optgroup {
-  font-weight: bold;
-}
-
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-/* line 415, ../sass/_normalize.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 421, ../sass/_normalize.scss */
-td,
-th {
-  padding: 0;
-}
-
-/* line 14, ../sass/_mixins.scss */
-.clearfix, .group {
-  zoom: 1;
-}
-/* line 3, ../sass/_mixins.scss */
-.clearfix:before, .clearfix:after, .group:before, .group:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-/* line 9, ../sass/_mixins.scss */
-.clearfix:after, .group:after {
-  clear: both;
-}
-
-/* line 3, ../sass/_grid.scss */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-/* line 9, ../sass/_grid.scss */
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11 {
-  display: block;
-  margin-bottom: 20px;
-}
-
-@media screen and (min-width: 480px) {
-  /* line 21, ../sass/_grid.scss */
-  .container {
-    padding: 0 40px;
-  }
-
-  /* line 25, ../sass/_grid.scss */
-  .group {
-    margin-left: -2.1277%;
-  }
-
-  /* line 29, ../sass/_grid.scss */
-  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11 {
-    float: left;
-    margin-left: 2.1277%;
-    margin-bottom: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span1 {
-    width: 6.20563%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span2 {
-    width: 14.53897%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span3 {
-    width: 22.8723%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span4 {
-    width: 31.20563%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span5 {
-    width: 39.53897%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span6 {
-    width: 47.8723%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span7 {
-    width: 56.20563%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span8 {
-    width: 64.53897%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span9 {
-    width: 72.8723%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span10 {
-    width: 81.20563%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span11 {
-    width: 89.53897%;
-  }
-
-  /* line 37, ../sass/_grid.scss */
-  .span12 {
-    width: 97.8723%;
-  }
-}
-/* line 1, ../sass/_type.scss */
-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 100%;
-  line-height: 1.6;
-}
-
-/* line 9, ../sass/_type.scss */
-h1, h3, h4 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
-/* line 13, ../sass/_type.scss */
-h1 {
-  font-size: 2.875em;
-  margin: 0 0 05px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  display: inline-block;
-}
-
-/* line 21, ../sass/_type.scss */
-hgroup {
-  color: white;
-  position: relative;
-  padding-top: 200px;
-}
-
-/* line 28, ../sass/_type.scss */
-h2 {
-  font-family: "Neuton", Georgia, Times, serif;
-  font-style: italic;
-  font-size: 1.250em;
-  margin: 0 0 25px;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-
-/* line 37, ../sass/_type.scss */
-h3 {
-  font-size: 3em;
-  margin: 0 0 25px;
-  font-weight: 300;
-  font-style: normal;
-}
-
-/* line 44, ../sass/_type.scss */
-h4 {
-  font-size: 18px;
-  margin: 0 0 25px;
-  font-weight: 700;
-  font-style: normal;
-}
-
-/* line 51, ../sass/_type.scss */
-h5 {
-  font-size: 16px;
-  margin: 0 0 25px;
-  font-style: normal;
-  font-weight: normal;
-}
-
-/* line 58, ../sass/_type.scss */
-p {
-  margin: 0 0 20px;
-}
-
-/* line 62, ../sass/_type.scss */
-.intro {
-  font-family: "Neuton", Georgia, Times, serif;
-  font-style: italic;
-  font-size: 1.3em;
-  line-height: 28px;
-}
-
-/* line 69, ../sass/_type.scss */
-.portfolio-headline {
-  color: white;
-}
-
-/* line 73, ../sass/_type.scss */
-pre {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  margin: 0 0 20px;
-  padding: 10px;
-  background: #f5f5f5;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  display: block;
-  font-size: 13px;
-  line-height: 20px;
-  word-break: break-all;
-  word-wrap: break-word;
-}
-
-/* line 2, ../sass/_links.scss */
-a {
-  color: black;
-}
-/* line 4, ../sass/_links.scss */
-a:hover, a:focus {
-  text-decoration: none;
-}
-
-/* line 10, ../sass/_links.scss */
-.btn, .btn-link {
-  background: none;
-  border: black 5px solid;
-  text-decoration: none;
-  display: inline-block;
-  line-height: 1;
-  padding: 15px 30px;
-  text-transform: uppercase;
-  outline: none;
-  letter-spacing: 5px;
-  font-weight: 800;
-  font-size: 1.150em;
-  width: 270px;
-  height: 70px;
-}
-/* line 24, ../sass/_links.scss */
-.btn:hover, .btn-link:hover, .btn:focus, .btn-link:focus {
-  background: black;
-  text-decoration: none;
-  color: white;
-}
-/* line 30, ../sass/_links.scss */
-.btn:active, .btn-link:active {
-  background: #ffffc2;
-}
-
-/* line 37, ../sass/_links.scss */
-.btn-link {
-  color: black;
-  background: transparent;
-  border: none;
-  text-shadow: none;
-  text-transform: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-/* line 45, ../sass/_links.scss */
-.btn-link:hover, .btn-link:focus {
-  text-decoration: underline;
-  background: transparent;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-/* line 55, ../sass/_links.scss */
-.main-c2a button {
-  border: white 5px solid;
-  color: white;
-  margin: 0 20px 0 20px;
-  margin-top: 360px;
-}
-
-/* line 63, ../sass/_links.scss */
-.main-c2a button:hover {
-  color: black;
-  background: white;
-}
-
-/* line 4, ../sass/_form.scss */
-form .field {
-  margin-bottom: 20px;
-}
-/* line 7, ../sass/_form.scss */
-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-/* line 11, ../sass/_form.scss */
-form input[type=text], form input[type=email], form input[type=phone], form input[type=password], form input[type=number], form input[type=search], form textarea {
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  outline: none;
-}
-/* line 17, ../sass/_form.scss */
-form input[type=text]:focus, form input[type=email]:focus, form input[type=phone]:focus, form input[type=password]:focus, form input[type=number]:focus, form input[type=search]:focus, form textarea:focus {
-  border-color: black;
-}
-/* line 20, ../sass/_form.scss */
-form input[type=text].auto, form input[type=email].auto, form input[type=phone].auto, form input[type=password].auto, form input[type=number].auto, form input[type=search].auto, form textarea.auto {
-  width: auto;
-}
-/* line 26, ../sass/_form.scss */
-form .note {
-  margin-top: 5px;
-  color: #999999;
-}
-/* line 32, ../sass/_form.scss */
-form .req {
-  font-style: italic;
-}
-/* line 40, ../sass/_form.scss */
-form .error .reason {
-  margin-top: 5px;
-  color: #ce0832;
-}
-/* line 44, ../sass/_form.scss */
-form .error input[type=text], form .error input[type=email], form .error input[type=phone], form .error input[type=password], form .error input[type=number], form .error input[type=search], form .error textarea {
-  border-color: #ce0832;
-}
-
-/* line 1, ../sass/_other.scss */
-.aligncenter {
-  text-align: center;
-}
-
-/* line 5, ../sass/_other.scss */
-.alignright {
-  text-align: right;
-}
-
-/* line 9, ../sass/_other.scss */
-.clear {
-  clear: both;
-}
-
-/* line 13, ../sass/_other.scss */
-.right {
-  float: right;
-}
-
-/* line 17, ../sass/_other.scss */
-.left {
-  float: left;
-}
-
-/* line 21, ../sass/_other.scss */
-.nolist {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-/* line 27, ../sass/_other.scss */
-.valign {
-  vertical-align: middle;
-}
-
-/* line 31, ../sass/_other.scss */
-hr {
-  border: none;
-  border-bottom: 1px solid #ddd;
-  margin: 40px 0;
-}
-
-/* line 37, ../sass/_other.scss */
-.subtle {
-  color: #999999;
-}
-
-/* line 41, ../sass/_other.scss */
-.relative {
-  position: relative;
-}
-
-/* line 45, ../sass/_other.scss */
-.main-header {
-  background-image: url(../img/bhplaceholder.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100% auto;
-  height: 868px;
-}
-
-/* line 1, ../sass/_header.scss */
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
-  height: 200px;
-}
-
-/* line 10, ../sass/_header.scss */
-ul {
-  padding: 0px;
-  margin: 0px;
-}
-
-/* line 15, ../sass/_header.scss */
-nav li {
-  display: inline-block;
-  padding: 0 70px 80px 70px;
-  margin-top: -30px;
-}
-
-/* line 21, ../sass/_header.scss */
-nav a {
-  color: white;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 0.750em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-/* line 31, ../sass/_header.scss */
-nav a:hover {
-  opacity: .6;
-  transition: opacity .3s ease-out;
-}
-
-/* line 36, ../sass/_header.scss */
-nav li:nth-child(1), nav li:nth-child(2) {
-  float: left;
-}
-
-/* line 40, ../sass/_header.scss */
-nav li:nth-child(3), nav li:nth-child(4) {
-  float: right;
-}
-
-/* line 44, ../sass/_header.scss */
-.logo {
-  display: block;
-  text-indent: -9999px;
-  margin: 0 auto;
-  position: relative;
-  top: 40px;
-  transition: all 1s;
-}
-
-/* line 53, ../sass/_header.scss */
-nav li:nth-child(1), nav li:nth-child(2) {
-  float: left;
-}
-
-/* line 57, ../sass/_header.scss */
-nav li:nth-child(3), nav li:nth-child(4) {
-  float: right;
-}
-
-/* Sizes for the bigger menu */
-/* line 62, ../sass/_header.scss */
-header.large {
-  height: 200px;
-}
-
-/* line 67, ../sass/_header.scss */
-header.large li {
-  margin-top: -80px;
-  display: inline-block;
-}
-
-/* line 72, ../sass/_header.scss */
-.svg-div {
-  margin-top: 40px;
-}
-
-/* line 76, ../sass/_header.scss */
-.large .svglogo {
-  fill: white;
-}
-
-/* Sizes for the smaller menu */
-/* line 83, ../sass/_header.scss */
-header.small {
-  height: 78px;
-  background: white;
-}
-
-/* line 88, ../sass/_header.scss */
-.small .svglogo {
-  fill: black;
-}
-
-/* line 92, ../sass/_header.scss */
-.small .svg-div {
-  margin: 0 auto;
-  margin-top: -3px;
-}
-
-/* line 97, ../sass/_header.scss */
-header.small li {
-  margin-top: -96px;
-}
-
-/* line 101, ../sass/_header.scss */
-header.small nav a {
-  color: black;
-}
-
-/* line 1, ../sass/_about.scss */
-.bio {
-  padding: 5%  20% 2% 20%;
-  text-align: center;
-  margin: auto;
-  background: #fffff5;
-}
-
-/* line 8, ../sass/_about.scss */
-#about {
-  display: block;
-  margin-top: 103px;
-}
-
-/* line 13, ../sass/_about.scss */
-.social {
-  margin: 0 auto;
-  background: white;
-  height: 100px;
-  text-align: center;
-  margin-top: 40px;
-}
-
-/* line 21, ../sass/_about.scss */
-.social ul {
-  margin: 0 auto;
-  width: 100%;
-  display: inline-block;
-}
-
-/* line 28, ../sass/_about.scss */
-.social li {
-  display: block;
-  text-align: center;
-  display: inline-block;
-}
-
-/* line 34, ../sass/_about.scss */
-.skills {
-  background: #fffff5;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  vertical-align: middle;
-  overflow: hidden;
-}
-
-/* line 43, ../sass/_about.scss */
-.icons li {
-  padding: 0 5px 0 5px;
-  margin: auto;
-  margin-top: 10px;
-}
-
-/* line 1, ../sass/_portfolio.scss */
-#portfolio {
-  background-image: url(../img/cin-bg.png);
-  height: 768px;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100% auto;
-}
-
-/* line 9, ../sass/_portfolio.scss */
-.image-wrapper {
-  position: relative;
-  height: 690px;
-}
-
-/* line 14, ../sass/_portfolio.scss */
-.computer {
-  position: relative;
-  right: 0;
-}
-
-/* line 19, ../sass/_portfolio.scss */
-.iphone {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-/* line 26, ../sass/_portfolio.scss */
-.next_previous {
-  display: inline-block;
-}
-
-/* line 1, ../sass/_contact.scss */
-input {
-  background: none;
-  border: none;
-}
+@charset "UTF-8";
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -1049,7 +12,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-/* line 16, ../sass/_fadein.scss */
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1057,32 +20,27 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-fill-mode: both;
 }
 
-/* line 23, ../sass/_fadein.scss */
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-/* line 28, ../sass/_fadein.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
 
 @-webkit-keyframes bounce {
-  /* line 34, ../sass/_fadein.scss */
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 39, ../sass/_fadein.scss */
   40% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 44, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -1090,21 +48,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounce {
-  /* line 51, ../sass/_fadein.scss */
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 57, ../sass/_fadein.scss */
   40% {
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 63, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
@@ -1112,57 +67,49 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 70, ../sass/_fadein.scss */
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
 }
 
 @-webkit-keyframes flash {
-  /* line 76, ../sass/_fadein.scss */
   0%, 50%, 100% {
     opacity: 1;
   }
 
-  /* line 80, ../sass/_fadein.scss */
   25%, 75% {
     opacity: 0;
   }
 }
 
 @keyframes flash {
-  /* line 86, ../sass/_fadein.scss */
   0%, 50%, 100% {
     opacity: 1;
   }
 
-  /* line 90, ../sass/_fadein.scss */
   25%, 75% {
     opacity: 0;
   }
 }
 
-/* line 95, ../sass/_fadein.scss */
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes pulse {
-  /* line 103, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 108, ../sass/_fadein.scss */
   50% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  /* line 113, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -1170,21 +117,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes pulse {
-  /* line 120, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 126, ../sass/_fadein.scss */
   50% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  /* line 132, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -1192,38 +136,32 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 139, ../sass/_fadein.scss */
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
 
 @-webkit-keyframes rubberBand {
-  /* line 145, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 150, ../sass/_fadein.scss */
   30% {
     -webkit-transform: scaleX(1.25) scaleY(0.75);
     transform: scaleX(1.25) scaleY(0.75);
   }
 
-  /* line 155, ../sass/_fadein.scss */
   40% {
     -webkit-transform: scaleX(0.75) scaleY(1.25);
     transform: scaleX(0.75) scaleY(1.25);
   }
 
-  /* line 160, ../sass/_fadein.scss */
   60% {
     -webkit-transform: scaleX(1.15) scaleY(0.85);
     transform: scaleX(1.15) scaleY(0.85);
   }
 
-  /* line 165, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -1231,35 +169,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rubberBand {
-  /* line 172, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 178, ../sass/_fadein.scss */
   30% {
     -webkit-transform: scaleX(1.25) scaleY(0.75);
     -ms-transform: scaleX(1.25) scaleY(0.75);
     transform: scaleX(1.25) scaleY(0.75);
   }
 
-  /* line 184, ../sass/_fadein.scss */
   40% {
     -webkit-transform: scaleX(0.75) scaleY(1.25);
     -ms-transform: scaleX(0.75) scaleY(1.25);
     transform: scaleX(0.75) scaleY(1.25);
   }
 
-  /* line 190, ../sass/_fadein.scss */
   60% {
     -webkit-transform: scaleX(1.15) scaleY(0.85);
     -ms-transform: scaleX(1.15) scaleY(0.85);
     transform: scaleX(1.15) scaleY(0.85);
   }
 
-  /* line 196, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -1267,26 +200,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 203, ../sass/_fadein.scss */
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
 
 @-webkit-keyframes shake {
-  /* line 209, ../sass/_fadein.scss */
   0%, 100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 214, ../sass/_fadein.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  /* line 219, ../sass/_fadein.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
@@ -1294,21 +223,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes shake {
-  /* line 226, ../sass/_fadein.scss */
   0%, 100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 232, ../sass/_fadein.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  /* line 238, ../sass/_fadein.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     -ms-transform: translateX(10px);
@@ -1316,38 +242,32 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 245, ../sass/_fadein.scss */
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
 }
 
 @-webkit-keyframes swing {
-  /* line 251, ../sass/_fadein.scss */
   20% {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
   }
 
-  /* line 256, ../sass/_fadein.scss */
   40% {
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
 
-  /* line 261, ../sass/_fadein.scss */
   60% {
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
   }
 
-  /* line 266, ../sass/_fadein.scss */
   80% {
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
 
-  /* line 271, ../sass/_fadein.scss */
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1355,35 +275,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes swing {
-  /* line 278, ../sass/_fadein.scss */
   20% {
     -webkit-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
   }
 
-  /* line 284, ../sass/_fadein.scss */
   40% {
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
 
-  /* line 290, ../sass/_fadein.scss */
   60% {
     -webkit-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
   }
 
-  /* line 296, ../sass/_fadein.scss */
   80% {
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
 
-  /* line 302, ../sass/_fadein.scss */
   100% {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -1391,7 +306,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 309, ../sass/_fadein.scss */
 .swing {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
@@ -1401,31 +315,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes tada {
-  /* line 318, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 323, ../sass/_fadein.scss */
   10%, 20% {
     -webkit-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
-  /* line 328, ../sass/_fadein.scss */
   30%, 50%, 70%, 90% {
     -webkit-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
-  /* line 333, ../sass/_fadein.scss */
   40%, 60%, 80% {
     -webkit-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
   }
 
-  /* line 338, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0);
@@ -1433,35 +342,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes tada {
-  /* line 345, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 351, ../sass/_fadein.scss */
   10%, 20% {
     -webkit-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg);
   }
 
-  /* line 357, ../sass/_fadein.scss */
   30%, 50%, 70%, 90% {
     -webkit-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg);
   }
 
-  /* line 363, ../sass/_fadein.scss */
   40%, 60%, 80% {
     -webkit-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
   }
 
-  /* line 369, ../sass/_fadein.scss */
   100% {
     -webkit-transform: scale(1) rotate(0);
     -ms-transform: scale(1) rotate(0);
@@ -1469,51 +373,44 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 376, ../sass/_fadein.scss */
 .tada {
   -webkit-animation-name: tada;
   animation-name: tada;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes wobble {
-  /* line 384, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
   }
 
-  /* line 389, ../sass/_fadein.scss */
   15% {
     -webkit-transform: translateX(-25%) rotate(-5deg);
     transform: translateX(-25%) rotate(-5deg);
   }
 
-  /* line 394, ../sass/_fadein.scss */
   30% {
     -webkit-transform: translateX(20%) rotate(3deg);
     transform: translateX(20%) rotate(3deg);
   }
 
-  /* line 399, ../sass/_fadein.scss */
   45% {
     -webkit-transform: translateX(-15%) rotate(-3deg);
     transform: translateX(-15%) rotate(-3deg);
   }
 
-  /* line 404, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateX(10%) rotate(2deg);
     transform: translateX(10%) rotate(2deg);
   }
 
-  /* line 409, ../sass/_fadein.scss */
   75% {
     -webkit-transform: translateX(-5%) rotate(-1deg);
     transform: translateX(-5%) rotate(-1deg);
   }
 
-  /* line 414, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
@@ -1521,49 +418,42 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes wobble {
-  /* line 421, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
     transform: translateX(0%);
   }
 
-  /* line 427, ../sass/_fadein.scss */
   15% {
     -webkit-transform: translateX(-25%) rotate(-5deg);
     -ms-transform: translateX(-25%) rotate(-5deg);
     transform: translateX(-25%) rotate(-5deg);
   }
 
-  /* line 433, ../sass/_fadein.scss */
   30% {
     -webkit-transform: translateX(20%) rotate(3deg);
     -ms-transform: translateX(20%) rotate(3deg);
     transform: translateX(20%) rotate(3deg);
   }
 
-  /* line 439, ../sass/_fadein.scss */
   45% {
     -webkit-transform: translateX(-15%) rotate(-3deg);
     -ms-transform: translateX(-15%) rotate(-3deg);
     transform: translateX(-15%) rotate(-3deg);
   }
 
-  /* line 445, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateX(10%) rotate(2deg);
     -ms-transform: translateX(10%) rotate(2deg);
     transform: translateX(10%) rotate(2deg);
   }
 
-  /* line 451, ../sass/_fadein.scss */
   75% {
     -webkit-transform: translateX(-5%) rotate(-1deg);
     -ms-transform: translateX(-5%) rotate(-1deg);
     transform: translateX(-5%) rotate(-1deg);
   }
 
-  /* line 457, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
@@ -1571,34 +461,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 464, ../sass/_fadein.scss */
 .wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
 }
 
 @-webkit-keyframes bounceIn {
-  /* line 470, ../sass/_fadein.scss */
   0% {
     opacity: 0;
-    -webkit-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(.3);
+    transform: scale(.3);
   }
 
-  /* line 476, ../sass/_fadein.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
 
-  /* line 482, ../sass/_fadein.scss */
   70% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
   }
 
-  /* line 487, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
@@ -1607,15 +492,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceIn {
-  /* line 495, ../sass/_fadein.scss */
   0% {
     opacity: 0;
-    -webkit-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(.3);
+    -ms-transform: scale(.3);
+    transform: scale(.3);
   }
 
-  /* line 502, ../sass/_fadein.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.05);
@@ -1623,14 +506,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1.05);
   }
 
-  /* line 509, ../sass/_fadein.scss */
   70% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
   }
 
-  /* line 515, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
@@ -1639,34 +520,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 523, ../sass/_fadein.scss */
 .bounceIn {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
 }
 
 @-webkit-keyframes bounceInDown {
-  /* line 529, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
 
-  /* line 535, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
 
-  /* line 541, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
-  /* line 546, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -1674,7 +550,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceInDown {
-  /* line 553, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -1682,7 +557,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 
-  /* line 560, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
@@ -1690,14 +564,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(30px);
   }
 
-  /* line 567, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
-  /* line 573, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -1705,34 +577,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 580, ../sass/_fadein.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
 
 @-webkit-keyframes bounceInLeft {
-  /* line 586, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px);
   }
 
-  /* line 592, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
     transform: translateX(30px);
   }
 
-  /* line 598, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  /* line 603, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -1740,7 +607,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceInLeft {
-  /* line 610, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -1748,7 +614,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 
-  /* line 617, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
@@ -1756,14 +621,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(30px);
   }
 
-  /* line 624, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
-  /* line 630, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -1771,34 +634,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 637, ../sass/_fadein.scss */
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
 }
 
 @-webkit-keyframes bounceInRight {
-  /* line 643, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
 
-  /* line 649, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
-  /* line 655, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
 
-  /* line 660, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -1806,7 +664,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceInRight {
-  /* line 667, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -1814,7 +671,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 
-  /* line 674, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
@@ -1822,14 +678,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-30px);
   }
 
-  /* line 681, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(10px);
     -ms-transform: translateX(10px);
     transform: translateX(10px);
   }
 
-  /* line 687, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -1837,34 +691,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 694, ../sass/_fadein.scss */
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
 }
 
 @-webkit-keyframes bounceInUp {
-  /* line 700, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
     transform: translateY(2000px);
   }
 
-  /* line 706, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 712, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
 
-  /* line 717, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -1872,7 +721,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceInUp {
-  /* line 724, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -1880,7 +728,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 
-  /* line 731, ../sass/_fadein.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-30px);
@@ -1888,14 +735,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-30px);
   }
 
-  /* line 738, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
 
-  /* line 744, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -1903,56 +748,48 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 751, ../sass/_fadein.scss */
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
 }
 
 @-webkit-keyframes bounceOut {
-  /* line 757, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 762, ../sass/_fadein.scss */
   25% {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
   }
 
-  /* line 767, ../sass/_fadein.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  /* line 773, ../sass/_fadein.scss */
   100% {
     opacity: 0;
-    -webkit-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(.3);
+    transform: scale(.3);
   }
 }
 
 @keyframes bounceOut {
-  /* line 781, ../sass/_fadein.scss */
   0% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 787, ../sass/_fadein.scss */
   25% {
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
   }
 
-  /* line 793, ../sass/_fadein.scss */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.1);
@@ -1960,36 +797,31 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1.1);
   }
 
-  /* line 800, ../sass/_fadein.scss */
   100% {
     opacity: 0;
-    -webkit-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(.3);
+    -ms-transform: scale(.3);
+    transform: scale(.3);
   }
 }
 
-/* line 808, ../sass/_fadein.scss */
 .bounceOut {
   -webkit-animation-name: bounceOut;
   animation-name: bounceOut;
 }
 
 @-webkit-keyframes bounceOutDown {
-  /* line 814, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 819, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 
-  /* line 825, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -1998,14 +830,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceOutDown {
-  /* line 833, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 839, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateY(-20px);
@@ -2013,7 +843,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-20px);
   }
 
-  /* line 846, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -2022,27 +851,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 854, ../sass/_fadein.scss */
 .bounceOutDown {
   -webkit-animation-name: bounceOutDown;
   animation-name: bounceOutDown;
 }
 
 @-webkit-keyframes bounceOutLeft {
-  /* line 860, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 865, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
 
-  /* line 871, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -2051,14 +876,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceOutLeft {
-  /* line 879, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 885, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateX(20px);
@@ -2066,7 +889,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(20px);
   }
 
-  /* line 892, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -2075,27 +897,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 900, ../sass/_fadein.scss */
 .bounceOutLeft {
   -webkit-animation-name: bounceOutLeft;
   animation-name: bounceOutLeft;
 }
 
 @-webkit-keyframes bounceOutRight {
-  /* line 906, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 911, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
 
-  /* line 917, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -2104,14 +922,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceOutRight {
-  /* line 925, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 931, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateX(-20px);
@@ -2119,7 +935,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-20px);
   }
 
-  /* line 938, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -2128,27 +943,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 946, ../sass/_fadein.scss */
 .bounceOutRight {
   -webkit-animation-name: bounceOutRight;
   animation-name: bounceOutRight;
 }
 
 @-webkit-keyframes bounceOutUp {
-  /* line 952, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 957, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
 
-  /* line 963, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -2157,14 +968,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounceOutUp {
-  /* line 971, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 977, ../sass/_fadein.scss */
   20% {
     opacity: 1;
     -webkit-transform: translateY(20px);
@@ -2172,7 +981,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(20px);
   }
 
-  /* line 984, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -2181,51 +989,43 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 992, ../sass/_fadein.scss */
 .bounceOutUp {
   -webkit-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
 }
 
 @-webkit-keyframes fadeIn {
-  /* line 998, ../sass/_fadein.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 1002, ../sass/_fadein.scss */
   100% {
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
-  /* line 1008, ../sass/_fadein.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 1012, ../sass/_fadein.scss */
   100% {
     opacity: 1;
   }
 }
 
-/* line 1017, ../sass/_fadein.scss */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
 @-webkit-keyframes fadeInDown {
-  /* line 1023, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 
-  /* line 1029, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2234,7 +1034,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInDown {
-  /* line 1037, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
@@ -2242,7 +1041,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-20px);
   }
 
-  /* line 1044, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2251,21 +1049,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1052, ../sass/_fadein.scss */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
 @-webkit-keyframes fadeInDownBig {
-  /* line 1058, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
 
-  /* line 1064, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2274,7 +1069,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInDownBig {
-  /* line 1072, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -2282,7 +1076,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 
-  /* line 1079, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2291,21 +1084,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1087, ../sass/_fadein.scss */
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
 }
 
 @-webkit-keyframes fadeInLeft {
-  /* line 1093, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
 
-  /* line 1099, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2314,7 +1104,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInLeft {
-  /* line 1107, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
@@ -2322,7 +1111,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-20px);
   }
 
-  /* line 1114, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2331,21 +1119,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1122, ../sass/_fadein.scss */
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
 
 @-webkit-keyframes fadeInLeftBig {
-  /* line 1128, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px);
   }
 
-  /* line 1134, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2354,7 +1139,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInLeftBig {
-  /* line 1142, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -2362,7 +1146,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 
-  /* line 1149, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2371,21 +1154,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1157, ../sass/_fadein.scss */
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
 }
 
 @-webkit-keyframes fadeInRight {
-  /* line 1163, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
 
-  /* line 1169, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2394,7 +1174,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInRight {
-  /* line 1177, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -2402,7 +1181,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(20px);
   }
 
-  /* line 1184, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2411,21 +1189,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1192, ../sass/_fadein.scss */
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
 @-webkit-keyframes fadeInRightBig {
-  /* line 1198, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
 
-  /* line 1204, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2434,7 +1209,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInRightBig {
-  /* line 1212, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -2442,7 +1216,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 
-  /* line 1219, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2451,21 +1224,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1227, ../sass/_fadein.scss */
 .fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
 }
 
 @-webkit-keyframes fadeInUp {
-  /* line 1233, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
 
-  /* line 1239, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2474,7 +1244,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInUp {
-  /* line 1247, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -2482,7 +1251,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(20px);
   }
 
-  /* line 1254, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2491,21 +1259,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1262, ../sass/_fadein.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
 @-webkit-keyframes fadeInUpBig {
-  /* line 1268, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
     transform: translateY(2000px);
   }
 
-  /* line 1274, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2514,7 +1279,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeInUpBig {
-  /* line 1282, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -2522,7 +1286,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 
-  /* line 1289, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2531,51 +1294,43 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1297, ../sass/_fadein.scss */
 .fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
 }
 
 @-webkit-keyframes fadeOut {
-  /* line 1303, ../sass/_fadein.scss */
   0% {
     opacity: 1;
   }
 
-  /* line 1307, ../sass/_fadein.scss */
   100% {
     opacity: 0;
   }
 }
 
 @keyframes fadeOut {
-  /* line 1313, ../sass/_fadein.scss */
   0% {
     opacity: 1;
   }
 
-  /* line 1317, ../sass/_fadein.scss */
   100% {
     opacity: 0;
   }
 }
 
-/* line 1322, ../sass/_fadein.scss */
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
 
 @-webkit-keyframes fadeOutDown {
-  /* line 1328, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 1334, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -2584,7 +1339,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutDown {
-  /* line 1342, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2592,7 +1346,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 
-  /* line 1349, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -2601,21 +1354,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1357, ../sass/_fadein.scss */
 .fadeOutDown {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
 }
 
 @-webkit-keyframes fadeOutDownBig {
-  /* line 1363, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 1369, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -2624,7 +1374,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutDownBig {
-  /* line 1377, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2632,7 +1381,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 
-  /* line 1384, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -2641,21 +1389,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1392, ../sass/_fadein.scss */
 .fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
   animation-name: fadeOutDownBig;
 }
 
 @-webkit-keyframes fadeOutLeft {
-  /* line 1398, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 1404, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
@@ -2664,7 +1409,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutLeft {
-  /* line 1412, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2672,7 +1416,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 
-  /* line 1419, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
@@ -2681,21 +1424,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1427, ../sass/_fadein.scss */
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
 }
 
 @-webkit-keyframes fadeOutLeftBig {
-  /* line 1433, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 1439, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -2704,7 +1444,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutLeftBig {
-  /* line 1447, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2712,7 +1451,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 
-  /* line 1454, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -2721,21 +1459,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1462, ../sass/_fadein.scss */
 .fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
   animation-name: fadeOutLeftBig;
 }
 
 @-webkit-keyframes fadeOutRight {
-  /* line 1468, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 1474, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -2744,7 +1479,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutRight {
-  /* line 1482, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2752,7 +1486,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 
-  /* line 1489, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -2761,21 +1494,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1497, ../sass/_fadein.scss */
 .fadeOutRight {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
 }
 
 @-webkit-keyframes fadeOutRightBig {
-  /* line 1503, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 1509, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -2784,7 +1514,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutRightBig {
-  /* line 1517, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -2792,7 +1521,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 
-  /* line 1524, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -2801,21 +1529,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1532, ../sass/_fadein.scss */
 .fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig;
 }
 
 @-webkit-keyframes fadeOutUp {
-  /* line 1538, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 1544, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
@@ -2824,7 +1549,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutUp {
-  /* line 1552, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2832,7 +1556,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 
-  /* line 1559, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
@@ -2841,21 +1564,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1567, ../sass/_fadein.scss */
 .fadeOutUp {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
 }
 
 @-webkit-keyframes fadeOutUpBig {
-  /* line 1573, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 1579, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -2864,7 +1584,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes fadeOutUpBig {
-  /* line 1587, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2872,7 +1591,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 
-  /* line 1594, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -2881,14 +1599,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1602, ../sass/_fadein.scss */
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
 }
 
 @-webkit-keyframes flip {
-  /* line 1608, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
@@ -2896,7 +1612,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-out;
   }
 
-  /* line 1615, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
@@ -2904,7 +1619,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-out;
   }
 
-  /* line 1622, ../sass/_fadein.scss */
   50% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
@@ -2912,15 +1626,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in;
   }
 
-  /* line 1629, ../sass/_fadein.scss */
   80% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
 
-  /* line 1636, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
@@ -2930,7 +1642,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flip {
-  /* line 1645, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
     -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
@@ -2939,7 +1650,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-out;
   }
 
-  /* line 1653, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
     -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
@@ -2948,7 +1658,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-out;
   }
 
-  /* line 1661, ../sass/_fadein.scss */
   50% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
@@ -2957,16 +1666,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in;
   }
 
-  /* line 1669, ../sass/_fadein.scss */
   80% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
 
-  /* line 1677, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
     -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
@@ -2976,7 +1683,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1686, ../sass/_fadein.scss */
 .animated.flip {
   -webkit-backface-visibility: visible;
   -ms-backface-visibility: visible;
@@ -2986,26 +1692,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flipInX {
-  /* line 1695, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
     opacity: 0;
   }
 
-  /* line 1701, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) rotateX(-10deg);
     transform: perspective(400px) rotateX(-10deg);
   }
 
-  /* line 1706, ../sass/_fadein.scss */
   70% {
     -webkit-transform: perspective(400px) rotateX(10deg);
     transform: perspective(400px) rotateX(10deg);
   }
 
-  /* line 1711, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
@@ -3014,7 +1716,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flipInX {
-  /* line 1719, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(90deg);
     -ms-transform: perspective(400px) rotateX(90deg);
@@ -3022,21 +1723,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 1726, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) rotateX(-10deg);
     -ms-transform: perspective(400px) rotateX(-10deg);
     transform: perspective(400px) rotateX(-10deg);
   }
 
-  /* line 1732, ../sass/_fadein.scss */
   70% {
     -webkit-transform: perspective(400px) rotateX(10deg);
     -ms-transform: perspective(400px) rotateX(10deg);
     transform: perspective(400px) rotateX(10deg);
   }
 
-  /* line 1738, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     -ms-transform: perspective(400px) rotateX(0deg);
@@ -3045,7 +1743,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1746, ../sass/_fadein.scss */
 .flipInX {
   -webkit-backface-visibility: visible !important;
   -ms-backface-visibility: visible !important;
@@ -3055,26 +1752,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flipInY {
-  /* line 1755, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
     opacity: 0;
   }
 
-  /* line 1761, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) rotateY(-10deg);
     transform: perspective(400px) rotateY(-10deg);
   }
 
-  /* line 1766, ../sass/_fadein.scss */
   70% {
     -webkit-transform: perspective(400px) rotateY(10deg);
     transform: perspective(400px) rotateY(10deg);
   }
 
-  /* line 1771, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
@@ -3083,7 +1776,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flipInY {
-  /* line 1779, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     -ms-transform: perspective(400px) rotateY(90deg);
@@ -3091,21 +1783,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 1786, ../sass/_fadein.scss */
   40% {
     -webkit-transform: perspective(400px) rotateY(-10deg);
     -ms-transform: perspective(400px) rotateY(-10deg);
     transform: perspective(400px) rotateY(-10deg);
   }
 
-  /* line 1792, ../sass/_fadein.scss */
   70% {
     -webkit-transform: perspective(400px) rotateY(10deg);
     -ms-transform: perspective(400px) rotateY(10deg);
     transform: perspective(400px) rotateY(10deg);
   }
 
-  /* line 1798, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     -ms-transform: perspective(400px) rotateY(0deg);
@@ -3114,7 +1803,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1806, ../sass/_fadein.scss */
 .flipInY {
   -webkit-backface-visibility: visible !important;
   -ms-backface-visibility: visible !important;
@@ -3124,14 +1812,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flipOutX {
-  /* line 1815, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
     opacity: 1;
   }
 
-  /* line 1821, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
@@ -3140,7 +1826,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flipOutX {
-  /* line 1829, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateX(0deg);
     -ms-transform: perspective(400px) rotateX(0deg);
@@ -3148,7 +1833,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 1836, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateX(90deg);
     -ms-transform: perspective(400px) rotateX(90deg);
@@ -3157,7 +1841,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1844, ../sass/_fadein.scss */
 .flipOutX {
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
@@ -3167,14 +1850,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flipOutY {
-  /* line 1853, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
     opacity: 1;
   }
 
-  /* line 1859, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
@@ -3183,7 +1864,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flipOutY {
-  /* line 1867, ../sass/_fadein.scss */
   0% {
     -webkit-transform: perspective(400px) rotateY(0deg);
     -ms-transform: perspective(400px) rotateY(0deg);
@@ -3191,7 +1871,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 1874, ../sass/_fadein.scss */
   100% {
     -webkit-transform: perspective(400px) rotateY(90deg);
     -ms-transform: perspective(400px) rotateY(90deg);
@@ -3200,7 +1879,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1882, ../sass/_fadein.scss */
 .flipOutY {
   -webkit-backface-visibility: visible !important;
   -ms-backface-visibility: visible !important;
@@ -3210,28 +1888,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes lightSpeedIn {
-  /* line 1891, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
     opacity: 0;
   }
 
-  /* line 1897, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
     opacity: 1;
   }
 
-  /* line 1903, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
     opacity: 1;
   }
 
-  /* line 1909, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
@@ -3240,7 +1914,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes lightSpeedIn {
-  /* line 1917, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(100%) skewX(-30deg);
     -ms-transform: translateX(100%) skewX(-30deg);
@@ -3248,7 +1921,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 1924, ../sass/_fadein.scss */
   60% {
     -webkit-transform: translateX(-20%) skewX(30deg);
     -ms-transform: translateX(-20%) skewX(30deg);
@@ -3256,7 +1928,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 1931, ../sass/_fadein.scss */
   80% {
     -webkit-transform: translateX(0%) skewX(-15deg);
     -ms-transform: translateX(0%) skewX(-15deg);
@@ -3264,7 +1935,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 1938, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0%) skewX(0deg);
     -ms-transform: translateX(0%) skewX(0deg);
@@ -3273,7 +1943,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1946, ../sass/_fadein.scss */
 .lightSpeedIn {
   -webkit-animation-name: lightSpeedIn;
   animation-name: lightSpeedIn;
@@ -3282,14 +1951,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes lightSpeedOut {
-  /* line 1954, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
     opacity: 1;
   }
 
-  /* line 1960, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
@@ -3298,7 +1965,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes lightSpeedOut {
-  /* line 1968, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0%) skewX(0deg);
     -ms-transform: translateX(0%) skewX(0deg);
@@ -3306,7 +1972,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 1975, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(100%) skewX(-30deg);
     -ms-transform: translateX(100%) skewX(-30deg);
@@ -3315,7 +1980,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 1983, ../sass/_fadein.scss */
 .lightSpeedOut {
   -webkit-animation-name: lightSpeedOut;
   animation-name: lightSpeedOut;
@@ -3324,7 +1988,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes rotateIn {
-  /* line 1991, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -3333,7 +1996,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 1999, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -3344,7 +2006,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateIn {
-  /* line 2009, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
@@ -3355,7 +2016,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2019, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
@@ -3367,14 +2027,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2030, ../sass/_fadein.scss */
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
 }
 
 @-webkit-keyframes rotateInDownLeft {
-  /* line 2036, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3383,7 +2041,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2044, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3394,7 +2051,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateInDownLeft {
-  /* line 2054, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3405,7 +2061,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2064, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3417,14 +2072,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2075, ../sass/_fadein.scss */
 .rotateInDownLeft {
   -webkit-animation-name: rotateInDownLeft;
   animation-name: rotateInDownLeft;
 }
 
 @-webkit-keyframes rotateInDownRight {
-  /* line 2081, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3433,7 +2086,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2089, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3444,7 +2096,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateInDownRight {
-  /* line 2099, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3455,7 +2106,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2109, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3467,14 +2117,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2120, ../sass/_fadein.scss */
 .rotateInDownRight {
   -webkit-animation-name: rotateInDownRight;
   animation-name: rotateInDownRight;
 }
 
 @-webkit-keyframes rotateInUpLeft {
-  /* line 2126, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3483,7 +2131,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2134, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3494,7 +2141,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateInUpLeft {
-  /* line 2144, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3505,7 +2151,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2154, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3517,14 +2162,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2165, ../sass/_fadein.scss */
 .rotateInUpLeft {
   -webkit-animation-name: rotateInUpLeft;
   animation-name: rotateInUpLeft;
 }
 
 @-webkit-keyframes rotateInUpRight {
-  /* line 2171, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3533,7 +2176,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2179, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3544,7 +2186,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateInUpRight {
-  /* line 2189, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3555,7 +2196,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 
-  /* line 2199, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3567,14 +2207,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2210, ../sass/_fadein.scss */
 .rotateInUpRight {
   -webkit-animation-name: rotateInUpRight;
   animation-name: rotateInUpRight;
 }
 
 @-webkit-keyframes rotateOut {
-  /* line 2216, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -3583,7 +2221,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2224, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -3594,7 +2231,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateOut {
-  /* line 2234, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
@@ -3605,7 +2241,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2244, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
@@ -3617,14 +2252,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2255, ../sass/_fadein.scss */
 .rotateOut {
   -webkit-animation-name: rotateOut;
   animation-name: rotateOut;
 }
 
 @-webkit-keyframes rotateOutDownLeft {
-  /* line 2261, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3633,7 +2266,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2269, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3644,7 +2276,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateOutDownLeft {
-  /* line 2279, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3655,7 +2286,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2289, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3667,14 +2297,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2300, ../sass/_fadein.scss */
 .rotateOutDownLeft {
   -webkit-animation-name: rotateOutDownLeft;
   animation-name: rotateOutDownLeft;
 }
 
 @-webkit-keyframes rotateOutDownRight {
-  /* line 2306, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3683,7 +2311,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2314, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3694,7 +2321,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateOutDownRight {
-  /* line 2324, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3705,7 +2331,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2334, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3717,14 +2342,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2345, ../sass/_fadein.scss */
 .rotateOutDownRight {
   -webkit-animation-name: rotateOutDownRight;
   animation-name: rotateOutDownRight;
 }
 
 @-webkit-keyframes rotateOutUpLeft {
-  /* line 2351, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3733,7 +2356,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2359, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -3744,7 +2366,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateOutUpLeft {
-  /* line 2369, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3755,7 +2376,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2379, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -3767,14 +2387,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2390, ../sass/_fadein.scss */
 .rotateOutUpLeft {
   -webkit-animation-name: rotateOutUpLeft;
   animation-name: rotateOutUpLeft;
 }
 
 @-webkit-keyframes rotateOutUpRight {
-  /* line 2396, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3783,7 +2401,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2404, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -3794,7 +2411,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rotateOutUpRight {
-  /* line 2414, ../sass/_fadein.scss */
   0% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3805,7 +2421,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2424, ../sass/_fadein.scss */
   100% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -3817,21 +2432,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2435, ../sass/_fadein.scss */
 .rotateOutUpRight {
   -webkit-animation-name: rotateOutUpRight;
   animation-name: rotateOutUpRight;
 }
 
 @-webkit-keyframes slideInDown {
-  /* line 2441, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
 
-  /* line 2447, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -3839,7 +2451,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideInDown {
-  /* line 2454, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -3847,7 +2458,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 
-  /* line 2461, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -3855,21 +2465,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2468, ../sass/_fadein.scss */
 .slideInDown {
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
 }
 
 @-webkit-keyframes slideInLeft {
-  /* line 2474, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px);
   }
 
-  /* line 2480, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -3877,7 +2484,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideInLeft {
-  /* line 2487, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -3885,7 +2491,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 
-  /* line 2494, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -3893,21 +2498,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2501, ../sass/_fadein.scss */
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
 }
 
 @-webkit-keyframes slideInRight {
-  /* line 2507, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
 
-  /* line 2513, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -3915,7 +2517,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideInRight {
-  /* line 2520, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -3923,7 +2524,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 
-  /* line 2527, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -3931,20 +2531,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2534, ../sass/_fadein.scss */
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 }
 
 @-webkit-keyframes slideOutLeft {
-  /* line 2540, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 2545, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -3953,14 +2550,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideOutLeft {
-  /* line 2553, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 2559, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
@@ -3969,20 +2564,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2567, ../sass/_fadein.scss */
 .slideOutLeft {
   -webkit-animation-name: slideOutLeft;
   animation-name: slideOutLeft;
 }
 
 @-webkit-keyframes slideOutRight {
-  /* line 2573, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 2578, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -3991,14 +2583,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideOutRight {
-  /* line 2586, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
 
-  /* line 2592, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
@@ -4007,20 +2597,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2600, ../sass/_fadein.scss */
 .slideOutRight {
   -webkit-animation-name: slideOutRight;
   animation-name: slideOutRight;
 }
 
 @-webkit-keyframes slideOutUp {
-  /* line 2606, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 2611, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -4029,14 +2616,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideOutUp {
-  /* line 2619, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 2625, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
@@ -4045,20 +2630,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2633, ../sass/_fadein.scss */
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
 
 @-webkit-keyframes slideOutDown {
-  /* line 2639, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 2644, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -4067,14 +2649,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes slideOutDown {
-  /* line 2652, ../sass/_fadein.scss */
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
-  /* line 2658, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
@@ -4083,14 +2663,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2666, ../sass/_fadein.scss */
 .slideOutDown {
   -webkit-animation-name: slideOutDown;
   animation-name: slideOutDown;
 }
 
 @-webkit-keyframes hinge {
-  /* line 2672, ../sass/_fadein.scss */
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -4100,7 +2678,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2681, ../sass/_fadein.scss */
   20%, 60% {
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
@@ -4110,7 +2687,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2690, ../sass/_fadein.scss */
   40% {
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
@@ -4120,7 +2696,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2699, ../sass/_fadein.scss */
   80% {
     -webkit-transform: rotate(60deg) translateY(0);
     transform: rotate(60deg) translateY(0);
@@ -4131,7 +2706,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2709, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(700px);
     transform: translateY(700px);
@@ -4140,7 +2714,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes hinge {
-  /* line 2717, ../sass/_fadein.scss */
   0% {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
@@ -4152,7 +2725,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2728, ../sass/_fadein.scss */
   20%, 60% {
     -webkit-transform: rotate(80deg);
     -ms-transform: rotate(80deg);
@@ -4164,7 +2736,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2739, ../sass/_fadein.scss */
   40% {
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
@@ -4176,7 +2747,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in-out;
   }
 
-  /* line 2750, ../sass/_fadein.scss */
   80% {
     -webkit-transform: rotate(60deg) translateY(0);
     -ms-transform: rotate(60deg) translateY(0);
@@ -4189,7 +2759,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 
-  /* line 2762, ../sass/_fadein.scss */
   100% {
     -webkit-transform: translateY(700px);
     -ms-transform: translateY(700px);
@@ -4198,22 +2767,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2770, ../sass/_fadein.scss */
 .hinge {
   -webkit-animation-name: hinge;
   animation-name: hinge;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes rollIn {
-  /* line 2778, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     transform: translateX(-100%) rotate(-120deg);
   }
 
-  /* line 2784, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -4222,7 +2789,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rollIn {
-  /* line 2792, ../sass/_fadein.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
@@ -4230,7 +2796,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-100%) rotate(-120deg);
   }
 
-  /* line 2799, ../sass/_fadein.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -4239,22 +2804,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2807, ../sass/_fadein.scss */
 .rollIn {
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes rollOut {
-  /* line 2815, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     transform: translateX(0px) rotate(0deg);
   }
 
-  /* line 2821, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(100%) rotate(120deg);
@@ -4263,7 +2826,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes rollOut {
-  /* line 2829, ../sass/_fadein.scss */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
@@ -4271,7 +2833,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0px) rotate(0deg);
   }
 
-  /* line 2836, ../sass/_fadein.scss */
   100% {
     opacity: 0;
     -webkit-transform: translateX(100%) rotate(120deg);
@@ -4280,32 +2841,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* line 2844, ../sass/_fadein.scss */
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
-}
-
-@media screen and (max-width: 480px) {
-  /* line 7, ../sass/_responsive.scss */
-  body {
-    overflow-x: hidden;
-  }
-}
-@media print {
-  /* line 2, ../sass/_print.scss */
-  header, nav, footer {
-    display: none;
-  }
-
-  /* line 5, ../sass/_print.scss */
-  img {
-    max-width: 500px;
-  }
-
-  /* line 8, ../sass/_print.scss */
-  body {
-    font: 12pt Georgia, "Times New Roman", Times, serif;
-    line-height: 1.3;
-  }
 }
