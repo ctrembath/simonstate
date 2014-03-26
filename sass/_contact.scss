@@ -1,4 +1,14 @@
+#contact {
+	background:$tertiary-color;
+	padding: 5%  15% 2% 15%;
+}
+
+fieldset {
+	background: $primary-color;
+}
+
 input {
-	background: none;
-	border: none;
+	background: $secondary-color;
+	outline: 0;
+	width: 98%;
 }

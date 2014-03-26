@@ -4,17 +4,45 @@ height:768px;
 background-repeat: no-repeat;
 background-position: top;
 background-size: 100% auto;
+position: relative;
+
+}
+
+.portfolio-content {
+	padding-top: 38px;
+}
+
+.portfolio-content button {
+	width: 210px;
+	border:$secondary-color 5px solid;
+  color:$secondary-color;
+}
+
+.portfolio-content h4 {
+	color:$secondary-color;
+	padding-top: 80px;
+	border-bottom: $secondary-color 1px solid;
+	padding-bottom: 20px;
+}
+
+.portfolio-content p {
+	color:$secondary-color;
+	padding-top: 38px;
 }
 
 .image-wrapper {
-	position: relative;
-	height: 690px;
+	position: absolute;
+	background: url(../img/computer.png);
+	height: 80%;
+	right: 0;
+	bottom: 0;
+	width: 60%;
 }
 
-.computer {
-	position: relative;
-	right: 0;
-}
+// .computer {
+// 	position: relative;
+// 	right: 0;
+// }
 
 .iphone {
 	position: absolute;
@@ -23,6 +51,4 @@ background-size: 100% auto;
 
 }
 
-.next_previous {
-	display: inline-block;
-}
+
