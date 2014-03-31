@@ -1,14 +1,69 @@
 #contact {
 	background:$tertiary-color;
 	padding: 5%  15% 2% 15%;
+
+// Wrap each form input/element in a field div
+	.field{
+		margin-bottom:$padding/2;
+	}
+
+	fieldset {
+		border: none;
+	}
+
+	.name {
+		float: left;
+		width: 46%;
+	}
+
+	.email {
+		float: right;
+		width: 46%;
+	}
+
+	input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
+		width:100%;
+		background:$tertiary-color;
+		padding:8px;
+		// border-radius: 10px;
+		border: 2px solid rgb(153, 153, 153);
+		outline:none;
+		&:focus{
+			border-color:$primary-color;
+			color:$primary-color;
+			background:$secondary-color;
+		}
+		&.auto{
+			width:auto;
+		}
+	}
+
+	// Notes go under the input fieldelds
+	.note{
+		margin-top:5px;
+		color:$subtle-color;
+	}
+
+	// Required label
+	.req{
+		font-style: italic;
+	}
+
+	// Validation, add error class to the item div
+	.error{
+
+		// Validation reason
+		.reason{
+			margin-top:5px;
+			color:$bad-color;
+		}
+		input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
+			border-color:$bad-color;
+		}
+	}
 }
 
-fieldset {
-	background: $primary-color;
-}
-
-input {
-	background: $secondary-color;
-	outline: 0;
-	width: 98%;
+.submit {
+	@extend .btn;
+	width: 100%;
 }
