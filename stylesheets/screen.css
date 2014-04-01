@@ -5,7 +5,7 @@
  *    user zoom.
  */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Neuton:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
 /* line 9, ../sass/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -560,47 +560,52 @@ h1, h3, h4 {
 
 /* line 13, ../sass/_type.scss */
 h1 {
-  font-size: 2.875em;
-  margin: 0 0 05px;
+  font-size: 2.8em;
+  margin: 25px 0 05px;
   font-weight: 300;
   letter-spacing: 1px;
   display: inline-block;
 }
 
 /* line 21, ../sass/_type.scss */
+.headline h1 {
+  font-size: 3.5em;
+}
+
+/* line 25, ../sass/_type.scss */
 hgroup {
   color: white;
   position: relative;
   padding-top: 200px;
 }
 
-/* line 28, ../sass/_type.scss */
+/* line 32, ../sass/_type.scss */
 h2 {
-  font-family: "Neuton", Georgia, Times, serif;
+  font-family: "Libre Baskerville", Georgia, Times, serif;
   font-style: italic;
-  font-size: 1.250em;
+  font-size: 1.1em;
   margin: 0 0 25px;
   font-weight: 100;
   letter-spacing: 1px;
 }
 
-/* line 37, ../sass/_type.scss */
+/* line 41, ../sass/_type.scss */
 h3 {
-  font-size: 3em;
-  margin: 0 0 25px;
+  font-size: 2.8em;
+  margin: 25px;
   font-weight: 300;
   font-style: normal;
 }
 
-/* line 44, ../sass/_type.scss */
+/* line 48, ../sass/_type.scss */
 h4 {
-  font-size: 18px;
-  margin: 30px 0 30px 0;
+  font-size: 1.250em;
+  margin: 30px 0 0 0;
   font-weight: 700;
   font-style: normal;
 }
 
-/* line 51, ../sass/_type.scss */
+/* line 55, ../sass/_type.scss */
 h5 {
   font-size: 16px;
   margin: 0 0 25px;
@@ -608,32 +613,34 @@ h5 {
   font-weight: normal;
 }
 
-/* line 58, ../sass/_type.scss */
+/* line 62, ../sass/_type.scss */
 p {
-  margin: 0 0 20px;
+  margin: 0 34px 20px;
   line-height: 2.4em;
   letter-spacing: 1px;
+  font-size: 0.875em;
 }
 
-/* line 64, ../sass/_type.scss */
+/* line 69, ../sass/_type.scss */
 .intro {
-  font-family: "Neuton", Georgia, Times, serif;
+  font-family: "Libre Baskerville", Georgia, Times, serif;
   font-style: italic;
-  font-size: 1.3em;
-  line-height: 28px;
+  font-size: 1.0em;
+  line-height: 26px;
+  font-weight: 400;
 }
 
-/* line 71, ../sass/_type.scss */
+/* line 77, ../sass/_type.scss */
 .skills h1 {
-  padding: 50px 0 50px 0;
+  padding: 45px 0 65px 0;
 }
 
-/* line 75, ../sass/_type.scss */
+/* line 81, ../sass/_type.scss */
 .portfolio-headline {
   color: white;
 }
 
-/* line 79, ../sass/_type.scss */
+/* line 85, ../sass/_type.scss */
 pre {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   margin: 0 0 20px;
@@ -718,9 +725,9 @@ a:hover, a:focus {
 
 /* line 63, ../sass/_links.scss */
 .main-c2a button:hover {
-  color: white;
-  background: black;
-  border: black 5px solid;
+  color: black;
+  background: white;
+  border: white 5px solid;
 }
 
 /* line 1, ../sass/_other.scss */
@@ -883,69 +890,75 @@ header.large li {
 header.small {
   height: 78px;
   background: white;
+  border-bottom: 1px solid black;
 }
 
-/* line 88, ../sass/_header.scss */
+/* line 89, ../sass/_header.scss */
 .small .svglogo {
   fill: black;
 }
 
-/* line 92, ../sass/_header.scss */
+/* line 93, ../sass/_header.scss */
 .small .svg-div {
   margin: 0 auto;
   margin-top: -3px;
 }
 
-/* line 97, ../sass/_header.scss */
+/* line 98, ../sass/_header.scss */
 header.small li {
   margin-top: -96px;
 }
 
-/* line 101, ../sass/_header.scss */
+/* line 102, ../sass/_header.scss */
 header.small nav a {
   color: black;
 }
 
 /* line 1, ../sass/_about.scss */
 .bio {
-  padding: 5%  20% 2% 20%;
+  padding: 4%  20% 4% 20%;
   text-align: center;
   margin: auto;
   background: #fffff5;
 }
 
 /* line 8, ../sass/_about.scss */
-#about {
-  display: block;
-  margin-top: 103px;
+.bio img {
+  margin-top: 25px;
 }
 
-/* line 13, ../sass/_about.scss */
+/* line 12, ../sass/_about.scss */
+#about {
+  display: block;
+  margin-top: 87px;
+}
+
+/* line 17, ../sass/_about.scss */
 .social {
   margin: 0 auto;
   background: white;
   height: 100px;
   text-align: center;
-  margin-top: 40px;
+  padding-top: 40px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-/* line 23, ../sass/_about.scss */
+/* line 27, ../sass/_about.scss */
 .social ul {
   margin: 0 auto;
   width: 100%;
   display: inline-block;
 }
 
-/* line 30, ../sass/_about.scss */
+/* line 34, ../sass/_about.scss */
 .social li {
   display: block;
   text-align: center;
   display: inline-block;
 }
 
-/* line 36, ../sass/_about.scss */
+/* line 40, ../sass/_about.scss */
 .skills {
   background: #fffff5;
   display: inline-block;
@@ -953,18 +966,19 @@ header.small nav a {
   width: 100%;
   vertical-align: middle;
   overflow: hidden;
+  padding-bottom: 70px;
 }
 
-/* line 45, ../sass/_about.scss */
+/* line 50, ../sass/_about.scss */
 .icons li {
   padding: 0 5px 0 5px;
   margin: auto;
   margin-top: 10px;
 }
 
-/* line 51, ../sass/_about.scss */
+/* line 56, ../sass/_about.scss */
 .line {
-  margin: 20px auto 20px auto;
+  margin: 25px auto 25px auto;
   width: 40%;
   height: 1px;
   background: black;
@@ -1026,64 +1040,101 @@ header.small nav a {
 /* line 1, ../sass/_contact.scss */
 #contact {
   background: #fffff5;
-  padding: 5%  15% 2% 15%;
+  padding: 2%  15% 2% 15%;
 }
 /* line 6, ../sass/_contact.scss */
 #contact .field {
-  margin-bottom: 20px;
+  padding: none;
 }
-/* line 10, ../sass/_contact.scss */
+/* line 11, ../sass/_contact.scss */
 #contact fieldset {
   border: none;
 }
-/* line 14, ../sass/_contact.scss */
+/* line 34, ../sass/_contact.scss */
 #contact .name {
-  float: left;
-  width: 46%;
+  background-image: url("../img/profile.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
 }
-/* line 19, ../sass/_contact.scss */
-#contact .email {
-  float: right;
-  width: 46%;
-}
-/* line 24, ../sass/_contact.scss */
-#contact input[type=text], #contact input[type=email], #contact input[type=phone], #contact input[type=password], #contact input[type=number], #contact input[type=search], #contact textarea {
-  width: 100%;
-  background: #fffff5;
-  padding: 8px;
-  border: 2px solid #999999;
-  outline: none;
-}
-/* line 31, ../sass/_contact.scss */
-#contact input[type=text]:focus, #contact input[type=email]:focus, #contact input[type=phone]:focus, #contact input[type=password]:focus, #contact input[type=number]:focus, #contact input[type=search]:focus, #contact textarea:focus {
+/* line 21, ../sass/_contact.scss */
+#contact .name:focus {
   border-color: black;
   color: black;
-  background: white;
+  background-image: url("../img/profile.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
+  background-color: white;
+  outline: none;
 }
-/* line 36, ../sass/_contact.scss */
-#contact input[type=text].auto, #contact input[type=email].auto, #contact input[type=phone].auto, #contact input[type=password].auto, #contact input[type=number].auto, #contact input[type=search].auto, #contact textarea.auto {
-  width: auto;
+/* line 39, ../sass/_contact.scss */
+#contact .email {
+  background-image: url("../img/card2.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
 }
-/* line 42, ../sass/_contact.scss */
-#contact .note {
-  margin-top: 5px;
-  color: #999999;
+/* line 21, ../sass/_contact.scss */
+#contact .email:focus {
+  border-color: black;
+  color: black;
+  background-image: url("../img/card2.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
+  background-color: white;
+  outline: none;
 }
-/* line 48, ../sass/_contact.scss */
-#contact .req {
-  font-style: italic;
+/* line 43, ../sass/_contact.scss */
+#contact .comment {
+  background-image: url("../img/gross.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
+}
+/* line 21, ../sass/_contact.scss */
+#contact .comment:focus {
+  border-color: black;
+  color: black;
+  background-image: url("../img/gross.svg");
+  background-position: 7px 10px;
+  background-repeat: no-repeat;
+  background-color: #fffff5;
+  background-size: 30px 30px;
+  background-color: white;
+  outline: none;
+}
+/* line 47, ../sass/_contact.scss */
+#contact input[type=text], #contact input[type=email], #contact input[type=phone], #contact input[type=password], #contact input[type=number], #contact input[type=search], #contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+  border: 2px solid #999999;
+  outline: none;
+  padding-left: 50px;
 }
 /* line 56, ../sass/_contact.scss */
+#contact textarea {
+  height: 200px;
+  width: 100%;
+}
+/* line 65, ../sass/_contact.scss */
 #contact .error .reason {
   margin-top: 5px;
   color: #ce0832;
 }
-/* line 60, ../sass/_contact.scss */
+/* line 69, ../sass/_contact.scss */
 #contact .error input[type=text], #contact .error input[type=email], #contact .error input[type=phone], #contact .error input[type=password], #contact .error input[type=number], #contact .error input[type=search], #contact .error textarea {
   border-color: #ce0832;
 }
 
-/* line 66, ../sass/_contact.scss */
+/* line 75, ../sass/_contact.scss */
 .submit {
   width: 100%;
 }

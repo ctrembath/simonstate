@@ -1,52 +1,61 @@
 #contact {
 	background:$tertiary-color;
-	padding: 5%  15% 2% 15%;
+	padding: 2%  15% 2% 15%;
 
 // Wrap each form input/element in a field div
-	.field{
-		margin-bottom:$padding/2;
+	.field {
+		padding: none;
+
 	}
 
 	fieldset {
 		border: none;
 	}
 
-	.name {
-		float: left;
-		width: 46%;
-	}
-
-	.email {
-		float: right;
-		width: 46%;
-	}
-
-	input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
-		width:100%;
-		background:$tertiary-color;
-		padding:8px;
-		// border-radius: 10px;
-		border: 2px solid rgb(153, 153, 153);
-		outline:none;
+	@mixin formfields($imgpath, $position: 7px 10px, $repeat: no-repeat){
+		background-image:url($imgpath);	
+		background-position:$position;
+		background-repeat:$repeat;
+		background-color:$tertiary-color;
+		background-size: 30px 30px;
 		&:focus{
 			border-color:$primary-color;
 			color:$primary-color;
-			background:$secondary-color;
-		}
-		&.auto{
-			width:auto;
+			background-image:url($imgpath);	
+			background-position:$position;
+			background-repeat:$repeat;
+			background-color:$tertiary-color;
+			background-size: 30px 30px;		
+			background-color:$secondary-color;
+			outline: none;
 		}
 	}
 
-	// Notes go under the input fieldelds
-	.note{
-		margin-top:5px;
-		color:$subtle-color;
+	.name {
+		@include formfields('../img/profile.svg');
+
 	}
 
-	// Required label
-	.req{
-		font-style: italic;
+	.email {
+		@include formfields('../img/card2.svg');
+}
+
+	.comment {
+		@include formfields('../img/gross.svg');
+}
+
+	input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
+		width:100%;
+		padding: 12px;
+		margin: 10px;
+		border: 2px solid rgb(153, 153, 153);
+		outline: none;
+		padding-left: 50px;
+	}
+
+	textarea {
+		height: 200px;
+		width: 100%;
 	}
 
 	// Validation, add error class to the item div

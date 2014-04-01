@@ -1,13 +1,17 @@
 .bio {
-	padding: 5%  20% 2% 20%;
+	padding: 4%  20% 4% 20%;
   text-align: center;
   margin: auto;
   background:$tertiary-color;
 }
 
+.bio img {
+	margin-top: 25px;
+}
+
 #about {
 	display: block;
-	margin-top: 103px;
+	margin-top: 87px;
 }
 
 .social {
@@ -15,7 +19,7 @@
 	background:$secondary-color;
 	height: 100px;
 	text-align: center;
-	margin-top: 40px;
+	padding-top: 40px;
 	border-top: 1px solid $primary-color;
 	border-bottom: 1px solid $primary-color;
 }
@@ -40,6 +44,7 @@
 	width: 100%;
 	vertical-align: middle;
 	overflow: hidden;
+	padding-bottom: 70px;
 }
 
 .icons li {
@@ -49,7 +54,7 @@
 }
 
 .line {
-	margin: 20px auto 20px auto;
+	margin: 25px auto 25px auto;
 	width: 40%;
 	height: 1px;
 	background:$primary-color;
